@@ -3,9 +3,7 @@ setup:
 
 test:
 	npm test
-
-lint:
-	npx eslint .
-
 lint-fix:
 	npx eslint . --fix
+lint:
+	npx eslint .
